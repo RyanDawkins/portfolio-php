@@ -45,6 +45,8 @@ $(document).on('submit', '#contact-form', function(event){
         type: "POST",
         url: "/contact",
         data: data,
+        dataType: "json",
+        async: false,
         success: function(data){
             console.log(data);
             $("#contact-success").show("slow");
@@ -52,8 +54,7 @@ $(document).on('submit', '#contact-form', function(event){
         error: function(data){
             $("#contact-error").show("slow");
             console.log(data);
-        },
-        dataType: "json"
+        }
     }).done(function(event){
         setTimeout(function(){
             $(".alert").hide("slow");
