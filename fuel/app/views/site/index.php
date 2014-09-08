@@ -42,6 +42,15 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10">
+
+                <div id="contact-sucess" style="margin-top: 20px; display: none;" class="alert alert-success">
+                    <p><strong>Success!</strong> I received your contact info!</p>
+                </div>
+
+                <div id="contact-error" style="margin-top: 20px; display: none;" class="alert alert-danger">
+                    <p><strong>Oh oh..</strong> I didn't receive your information. Something went wrong with my server. You can email me <a href="mailto:contact@ryanddawkins.com">here</a></p>
+                </div>
+
                 <div id="contact-form-div" class="pretty-box">
                     <form id="contact-form" role="form">
                         <div class="form-group">

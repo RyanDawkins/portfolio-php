@@ -47,11 +47,17 @@ $(document).on('submit', '#contact-form', function(event){
         data: data,
         success: function(data){
             console.log(data);
+            $("#contact-success").show("slow");
         },
         error: function(data){
+            $("#contact-error").show("slow");
             console.log(data);
         },
         dataType: "json"
+    }).done(function(event){
+        setTimeout(function(){
+            $(".alert").hide("slow");
+        }, 5000);
     });
 
     return false;
