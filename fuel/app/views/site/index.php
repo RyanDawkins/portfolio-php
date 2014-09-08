@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10">
 
-                <div id="contact-sucess" style="margin-top: 20px; display: none;" class="alert alert-success">
+                <div id="contact-success" style="margin-top: 20px; display: none;" class="alert alert-success">
                     <p><strong>Success!</strong> I received your contact info!</p>
                 </div>
 

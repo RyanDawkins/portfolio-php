@@ -48,7 +48,6 @@ $(document).on('submit', '#contact-form', function(event){
         dataType: "json",
         async: false,
         success: function(data){
-            console.log(data);
             $("#contact-success").show("slow");
         },
         error: function(data){
