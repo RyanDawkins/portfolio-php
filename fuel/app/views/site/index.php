@@ -1,6 +1,6 @@
 <div id="intro" class="full-page">
 
-    <img id="avatar" src="/assets/img/avatar.jpg" class="img-circle img-center">
+    <img id="avatar" src="/assets/img/avatar.jpg" class="img-circle img-responsive img-center">
 
     <h1 id="title-name" class="text-center">Ryan Dawkins</h1>
     <h3 class="text-center"><em>Software Engineer</em></h3>
