@@ -20,6 +20,8 @@ $(document).on('click', 'a', function(e){
     var href = $(this).attr("href");
     if(href.charAt(0) === '#') {
         $('html,body').animate({scrollTop: $(href).offset().top},'slow');
+    } else {
+        window.location.href = href;
     }
 });
 
