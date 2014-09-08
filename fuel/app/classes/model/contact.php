@@ -15,5 +15,7 @@ class Model_Contact
         $html->set("data", $json);
         $email->html_body($html);
         $email->send();
+
+        return array("message" => "success!");
     }
 }
