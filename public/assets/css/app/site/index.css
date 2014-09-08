@@ -14,9 +14,16 @@ p{
     font-size: 16px;
 }
 
-.full-page{
-    margin-top: 0px;
-    min-height: 800px;
+@media(min-width:769){
+    .full-page{
+        margin-top: 0px;
+        min-height: 800px;
+    }
+}
+@media(max-width: 768) {
+    .full-page{
+        margin-top: 500px;
+    }
 }
 
 #intro {
