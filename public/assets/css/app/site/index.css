@@ -19,10 +19,20 @@ p{
         margin-top: 0px;
         min-height: 800px;
     }
+    #avatar{
+        margin-top: 40px;
+        border: white solid thick;
+    }
 }
 @media(max-width: 768) {
     .full-page{
-        margin-top: 500px;
+        margin-top: 700px;
+    }
+    #avatar{
+        width: 60%;
+        height: 60%;
+        margin-top: 40px;
+        border: white solid thick;
     }
 }
 
@@ -83,11 +93,6 @@ img.img-center{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-#avatar{
-    margin-top: 40px;
-    border: white solid thick;
 }
 
 #quick-links{
